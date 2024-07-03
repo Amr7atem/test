@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  distDir: '.next', // Add this line
   images: {
     remotePatterns: [
       {
